@@ -1,3 +1,6 @@
-$(document).ready(function(){
-	$('#para').fadeIn(5000);
-});
+$('#img1').load(function(){
+	alert('the image has loaded');
+})
+$('#img2').load(function(){
+	alert('the image has loaded');
+})
