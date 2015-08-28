@@ -1,6 +1,6 @@
-$('#img1').load(function(){
+$(window).load(function(){
 	alert('the image has loaded');
-})
-$('#img2').load(function(){
-	alert('the image has loaded');
-})
+});
+$(document).ready(function(){
+	alert('the dom has ready');
+});
